@@ -75,6 +75,7 @@ module Rails
     autoload :Collectors
     autoload :Alternative
     autoload :Subscription
+    autoload :ProxyObject
 
     autoload :Argument
     autoload :Directive

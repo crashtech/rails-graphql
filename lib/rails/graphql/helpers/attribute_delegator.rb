@@ -5,7 +5,7 @@ module Rails
     module Helpers
       # This is an extra magic on top of the delegator class from the standard
       # lib that allows fetching a specific property of the delegated object
-      class AttributeDelegator < ActiveSupport::ProxyObject
+      class AttributeDelegator < GraphQL::ProxyObject
         def initialize(obj = nil, attribute = nil, cache: true, &block)
           @delegate_sd_attr = attribute
           @delegate_sd_obj = block.presence || obj
