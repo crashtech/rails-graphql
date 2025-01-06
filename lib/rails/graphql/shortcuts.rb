@@ -12,6 +12,7 @@ module GraphQL
     Controller:         '::Rails::GraphQL::Controller',
     Directive:          '::Rails::GraphQL::Directive',
     GlobalID:           '::Rails::GraphQL::GlobalID',
+    ProxyObject:        '::Rails::GraphQL::ProxyObject',
     Request:            '::Rails::GraphQL::Request',
     Schema:             '::Rails::GraphQL::Schema',
     Source:             '::Rails::GraphQL::Source',

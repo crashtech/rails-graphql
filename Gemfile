@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem 'rails', '~> 7.1'
+gem 'rails', '~> 8'
 gem 'bootsnap' # required by the Rails apps generated in tests
 gem 'ruby-prof', platform: :ruby
 gem 'pry-byebug'
